@@ -10,3 +10,12 @@ function divByZero($event, $context)
     ];
 }
 
+function classNotFound($event, $context) 
+{
+    $instance = new NotExistingClass();
+
+    return [
+        'status' => 500,
+        'data' => 'NOT_OK',
+    ];
+}
