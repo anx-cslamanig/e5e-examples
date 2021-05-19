@@ -1,0 +1,1 @@
+obj = ClassNotFound.new
