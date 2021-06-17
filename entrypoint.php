@@ -28,6 +28,10 @@ function main($event, $context)
             'context' => $context,
             'environment' => $_ENV,
         ],
+        'bla' => [
+            'bli',
+            'blu'
+        ]
     ];
 }
 
